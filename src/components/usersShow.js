@@ -5,7 +5,7 @@ import axios from 'axios'
 
 
 function UsersShow(props){
-    console.log('fucker',props)
+    console.log('what',props)
     return (
         <div>
             <h1>Posts Written By User</h1>
@@ -21,7 +21,7 @@ function UsersShow(props){
 
 const mapStateToProps=(state,props)=>{
   const id=props.match.params.id  
-  console.log('fuck',props)
+  console.log('what',props)
   console.log(state)
     return{
         
